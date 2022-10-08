@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bookdb?useUnicode=true&characterEncoding=utf-8&serverTimezone = UTC&useSSL=false
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: text/html
+    mode: HTML
