@@ -3,6 +3,8 @@
 <mapper namespace="com.sherlun.bookmanage.mapper.BookMapper">
 
     <select id="findAll" resultType="com.sherlun.bookmanage.entity.Book">
-        select * from bookdb.book
+            select * from bookdb.book
+        <where>
+        </where>
     </select>
 </mapper>
